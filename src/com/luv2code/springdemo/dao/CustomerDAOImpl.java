@@ -6,13 +6,17 @@ import javax.transaction.Transactional;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.luv2code.springdemo.entity.Customer;
 
-@Repository
-public class CustomerDAOImpl implements CustomerDAO{
 
+@Repository // we need Spring to component scan and get this repository and handle the Exceptions for us.
+public class CustomerDAOImpl implements CustomerDAO {
+
+	// need to DI the session factory 
 	@Autowired
 	private SessionFactory sessionFactory;
 	
@@ -23,7 +27,13 @@ public class CustomerDAOImpl implements CustomerDAO{
 		// get the current hibernate session
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		Quer<Customer> theQuery
-		return null;
+		// create a query
+		Query<Customer> theQuery = currentSession.createQuery("from Customer", Customer.class);
+		
+		// execute query and get result list
+		List<Customer> customers = theQuery.getResultList();
+		
+		// return the results
+		return customers;
 	}
 }
