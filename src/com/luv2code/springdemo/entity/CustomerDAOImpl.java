@@ -1,12 +1,9 @@
-package com.luv2code.springdemo.controller;
+package com.luv2code.springdemo.entity;
 
 import java.util.List;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.luv2code.springdemo.entity.Customer;
-import com.luv2code.springdemo.entity.CustomerDAO;
 
 
 
