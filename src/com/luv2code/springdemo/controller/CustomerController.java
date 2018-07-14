@@ -56,4 +56,10 @@ public class CustomerController {
 		
 		return "redirect:/customer/list";
 	}
+	
+	@PostMapping("/updateCustomer")
+	public String updateCustomer(int customerId) {
+		
+		return "customer-form";
+	}
 }
