@@ -26,6 +26,9 @@
 		<h3>Save Customer</h3>
 		
 		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+		
+			<!--  need to associate this data with customer id -->
+			<form:hidden path="id" /> <!-- without this line we would loose the id of the customer, it is important os we can send it to the CustomerController and do the update and not the saving of a new customer. -->
 			<table>
 				<tbody>
 					<tr>
