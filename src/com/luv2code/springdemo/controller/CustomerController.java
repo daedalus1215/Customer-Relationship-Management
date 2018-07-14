@@ -58,9 +58,9 @@ public class CustomerController {
 		return "redirect:/customer/list";
 	}
 	
-	@PostMapping("/updateCustomer")
+	@GetMapping("/showFormForUpdate")
 	public String updateCustomer(@RequestParam("customerId") int customerId, Model theModel) {
-		// get the customer from the database
+		// get the customer from the service
 		Customer theCustomer = customerService.getCustomer(customerId);
 		
 		// set customer as a model attribute to pre-populate the form
