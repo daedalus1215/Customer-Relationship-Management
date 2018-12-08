@@ -7,18 +7,18 @@ public class ApplicationMvcServletInitializer extends AbstractAnnotationConfigDi
 
     @Nullable
     @Override
-    protected Class<?>[] getRootConfigClasses() {
-        return new Class[0];
-    }
+    protected Class<?>[] getRootConfigClasses(){ return null; }
 
     @Nullable
     @Override
-    protected Class<?>[] getServletConfigClasses() {
-        return new Class[] {ApplicationConfig.class};
+    protected Class<?>[] getServletConfigClasses()  {
+        return new Class<?>[] {ApplicationConfig.class};
     }
 
     @Override
     protected String[] getServletMappings() {
         return new String[] { "/" };
     }
+
+
 }

@@ -21,7 +21,7 @@ public class CustomerController {
 	// need to inject our customer service
 	@Autowired
 	private CustomerService customerService;
-	
+
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
@@ -76,6 +76,7 @@ public class CustomerController {
 		
 		return "redirect:/customer/list";
 	}
+
 }
 
 
