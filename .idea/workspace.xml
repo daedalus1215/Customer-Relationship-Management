@@ -2,32 +2,90 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring-web-customer-tracker:war exploded2" />
+      <artifact name="spring-web-customer-tracker:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd5f562-26ae-468f-9d7c-56568aac0db9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/security-persistence-mysql.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy-login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml.replacing" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/Config/ApplicationConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/Config/ApplicationMvcServletInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/Config/SecurityConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/Config/SecurityWebApplicationInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/aspect/CRMLoggingAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/controller/CustomerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/dao/CustomerDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/dao/CustomerDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/entity/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/service/CustomerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/springdemo/service/CustomerServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/com/luv2code/testdb/TestDbServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/persistence-mysql.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/classes/security-persistence-mysql.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/aspectjweaver-1.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/cdi-api-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/el-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/hibernate-core-5.2.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jaxb-api-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jaxb-core-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jaxb-impl-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jsr250-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-aspects-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-context-support-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-security-acl-5.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-security-config-5.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-security-core-5.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-security-taglibs-5.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-security-web-5.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/tomcat-jdbc-9.0.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/lib/tomcat-juli-9.0.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/access-denied.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/customer-form.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/fancy-login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/home.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/list-customers.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/view/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/WEB-INF/web.xml.replacing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/resources/css/add-customer-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring_web_customer_tracker_war_exploded2/resources/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml.replacing" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-web-customer-tracker.iml" afterPath="$PROJECT_DIR$/spring-web-customer-tracker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationMvcServletInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationMvcServletInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityWebApplicationInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityWebApplicationInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,34 +108,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationConfig.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1779#1780#0" expanded="true" />
-                <element signature="e#1814#1815#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityConfig.java">
+      <file leaf-file-name="spring-web-customer-tracker.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-web-customer-tracker.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
+      <file leaf-file-name="spring_web_customer_tracker_war.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring_web_customer_tracker2_war.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker2_war.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml.original" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml.original">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -86,22 +158,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/entity/Customer.java">
+      <file leaf-file-name="spring_web_customer_tracker_war_exploded.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <element signature="n#element#0;n#element#0;n#root#0;n#artifact#0;n#component#0;n#!!top" expanded="false" />
+                <element signature="n#element#1;n#element#0;n#root#0;n#artifact#0;n#component#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +174,8 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -123,44 +188,12 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#281#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fancy-login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy-login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityWebApplicationInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityWebApplicationInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationMvcServletInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationMvcServletInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,6 +218,8 @@
       <find>spring_security_demo_plaintext</find>
       <find>javax.servlet-api</find>
       <find>packagesToScan</find>
+      <find>plugin</find>
+      <find>WEB-INF</find>
     </findStrings>
     <replaceStrings>
       <replace>web_customer_tracker</replace>
@@ -206,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/aspect/CRMLoggingAspect.java" />
         <option value="$PROJECT_DIR$/script.sql" />
         <option value="$PROJECT_DIR$/src/main/java/resources/persistence-mysql.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/SecurityWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationMvcServletInitializer.java" />
@@ -215,8 +249,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/security-persistence-mysql.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded2.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war1.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war2.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -241,10 +280,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1324" />
-    <option name="y" value="130" />
-    <option name="width" value="2760" />
-    <option name="height" value="1670" />
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -312,14 +350,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="luv2code" type="462c0819:PsiDirectoryNode" />
               <item name="springdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
@@ -345,51 +376,6 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-web-customer-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -401,16 +387,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\IntelliJ\Customer-Relationship-Management\.idea" />
+      <recent name="C:\Java\IntelliJ\Customer-Relationship-Management\.idea\artifacts" />
+      <recent name="C:\Java\IntelliJ\Customer-Relationship-Management\target\spring-web-customer-tracker\WEB-INF" />
       <recent name="C:\Java\IntelliJ\Customer-Relationship-Management\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Java\IntelliJ\Customer-Relationship-Management" />
     </key>
@@ -630,8 +619,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-9.0.4">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081" />
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-9.0.4">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-web-customer-tracker:war exploded">
@@ -643,7 +632,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_spring-web-customer-tracker" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTP_PORT" value="8082" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="false" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -702,7 +691,7 @@
       <method>
         <option name="Make" enabled="false" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring-web-customer-tracker:war exploded2" />
+          <artifact name="spring-web-customer-tracker:war exploded" />
         </option>
       </method>
     </configuration>
@@ -727,15 +716,16 @@
       <workItem from="1543075436289" duration="1173000" />
       <workItem from="1543190819909" duration="4126000" />
       <workItem from="1544011630973" duration="5312000" />
-      <workItem from="1544150399433" duration="8731000" />
+      <workItem from="1544150399433" duration="12091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22965000" />
+    <option name="totallyTimeSpent" value="26325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -756,10 +746,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38013244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4767064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29554045" sideWeight="0.49503547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14109698" sideWeight="0.49503547" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.50496453" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,68 +774,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/dao/CustomerDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="87" lean-forward="true" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <marker date="1543192111455" expanded="true" signature="97:3240" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1275:1454" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1597:2149" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2234:2654" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2471:2643" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2484:2629" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2749:2907" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/testdb/TestDbServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -890,15 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <marker date="1543192111455" expanded="true" signature="97:3240" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1275:1454" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1597:2149" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2234:2654" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2471:2643" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2484:2629" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2749:2907" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,20 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/aspect/CRMLoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="659">
@@ -1066,51 +972,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-web-customer-tracker.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml.replacing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="50" />
-          <folding>
-            <marker date="1543192111455" expanded="true" signature="97:3240" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1275:1454" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="1597:2149" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2234:2654" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2471:2643" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2484:2629" ph="..." />
-            <marker date="1543192111455" expanded="true" signature="2749:2907" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,27 +1056,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/target/spring-web-customer-tracker/WEB-INF/view/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,13 +1100,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml.original">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-web-customer-tracker.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker2_war.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/spring_web_customer_tracker_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="n#element#0;n#element#0;n#root#0;n#artifact#0;n#component#0;n#!!top" expanded="false" />
+            <element signature="n#element#1;n#element#0;n#root#0;n#artifact#0;n#component#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml.replacing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml.replacing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>spring-web-customer-tracker:war</last-edited>
+          <last-edited>spring-web-customer-tracker:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
