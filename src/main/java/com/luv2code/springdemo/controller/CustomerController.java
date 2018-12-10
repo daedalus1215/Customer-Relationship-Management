@@ -22,6 +22,19 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 
+
+	@GetMapping("/customer")
+	public String forwardListCustomers(Model theModel) {
+
+		// get customers from the service
+		List<Customer> theCustomers = customerService.getCustomers();
+
+		// add the customers to the model
+		theModel.addAttribute("customers", theCustomers);
+
+        return "redirect:/customer/list";
+	}
+
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
