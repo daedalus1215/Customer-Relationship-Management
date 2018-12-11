@@ -11,4 +11,7 @@ public class LoginController {
     public String login() {
         return "login";
     }
+
+    @RequestMapping("/registration")
+    public String registration() { return "registration";}
 }
