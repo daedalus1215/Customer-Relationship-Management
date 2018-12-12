@@ -1,6 +1,7 @@
 package com.luv2code.springdemo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -14,4 +15,5 @@ public class LoginController {
 
     @RequestMapping("/registration")
     public String registration() { return "registration";}
+
 }

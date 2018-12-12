@@ -34,11 +34,11 @@
         <div class="panel panel-info">
 
             <div class="panel-heading">
-                <div class="panel-title">Sign In</div>
+                <div class="panel-title">Register</div>
             </div>
 
             <div style="padding-top: 30px" class="panel-body">
-                <form action="${pageContext.request.contextPath}/authenticateTheUser" method="post"
+                <form action="${pageContext.request.contextPath}/customer/saveCustomer" method="post"
                            cssClass="form-horizontal">
                     <!-- Place for messages: error, alert etc ... -->
                     <div class="form-group">
