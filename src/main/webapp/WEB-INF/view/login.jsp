@@ -79,9 +79,9 @@
                         <div class="col-sm-6 controls">
                             <button type="submit" class="btn btn-primary" value="Login">Login</button>
                         </div>
-                        <div class="col-sm-6 controls">
-                            <button id="register" type="button" class="btn btn-secondary" value="Register">Register</button>
-                        </div>
+                        <%--<div class="col-sm-6 controls">--%>
+                            <%--<button id="register" type="button" class="btn btn-secondary" value="Register">Register</button>--%>
+                        <%--</div>--%>
                     </div>
                     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
                     <%-- manually adding tokens --%>
@@ -94,6 +94,6 @@
 
 </div>
 
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/login.js"></script>
+<%--<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/login.js"></script>--%>
 </body>
 </html>
