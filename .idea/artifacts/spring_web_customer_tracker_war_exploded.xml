@@ -48,11 +48,12 @@
           <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" />
           <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
           <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:9.0.10" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:9.0.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
@@ -62,4 +63,3 @@
     </root>
   </artifact>
 </component>
-

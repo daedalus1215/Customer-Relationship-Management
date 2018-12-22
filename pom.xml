@@ -83,25 +83,21 @@
             <version>0.9.5.2</version>
         </dependency>
 
-        <!-- Servlet+JSP+JSTL -->
-        <!--<dependency>-->
-            <!--<groupId>javax.servlet</groupId>-->
-            <!--<artifactId>javax.servlet-api</artifactId>-->
-            <!--<version>3.1.0</version>-->
-        <!--</dependency>-->
-
+        <!-- for restful api end point -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
 
+        <!-- for jsp page rendering -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>2.3.1</version>
         </dependency>
 
+        <!-- jstl which I may or maynot need anymore -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -109,6 +105,7 @@
         </dependency>
 
 
+        <!--Not sure If I even use these anymore, will figure that out. -->
         <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
@@ -126,18 +123,27 @@
             <version>2.3.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc -->
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-jdbc</artifactId>
-            <version>9.0.10</version>
-        </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <!-- do not think I need-->
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc -->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tomcat</groupId>-->
+            <!--<artifactId>tomcat-jdbc</artifactId>-->
+            <!--<version>9.0.10</version>-->
+        <!--</dependency>-->
+
+        <!-- AOP  -  https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>3.2.0.RELEASE</version>
+        </dependency>
+
+        <!-- Add Jackson for JSON converters -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.5</version>
         </dependency>
 
     </dependencies>
