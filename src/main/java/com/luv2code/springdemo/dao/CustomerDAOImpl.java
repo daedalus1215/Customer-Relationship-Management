@@ -17,7 +17,8 @@ public class CustomerDAOImpl implements CustomerDAO {
 	// need to inject the session factory
 	@Autowired
 	private SessionFactory sessionFactory;
-			
+
+
 	@Override
 	public List<Customer> getCustomers() {
 		
@@ -36,6 +37,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		return customers;
 	}
 
+
 	@Override
 	public void saveCustomer(Customer theCustomer) {
 
@@ -46,6 +48,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		currentSession.saveOrUpdate(theCustomer);
 		
 	}
+
 
 	@Override
 	public Customer getCustomer(int theId) {
@@ -58,6 +61,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		
 		return theCustomer;
 	}
+
 
 	@Override
 	public void deleteCustomer(int theId) {
