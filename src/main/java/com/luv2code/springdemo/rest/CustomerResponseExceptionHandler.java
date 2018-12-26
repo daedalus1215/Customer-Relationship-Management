@@ -22,6 +22,17 @@ public class CustomerResponseExceptionHandler {
         return new ResponseEntity<CustomerErrorResponse>(errorResponse, HttpStatus.NOT_FOUND);
     }
 
+    // Add Exception handling for everything
+    @ExceptionHandler
+    public ResponseEntity<CustomerErrorResponse> handleException(Exception exc) {
 
+        // Create CustomerErrorResponse
+        CustomerErrorResponse errorResponse = new CustomerErrorResponse(
+                HttpStatus.BAD_REQUEST.value(),
+                exc.getMessage(),
+                System.currentTimeMillis());
 
+        // return ResponseEntity
+        return new ResponseEntity<CustomerErrorResponse>(errorResponse, HttpStatus.BAD_REQUEST);
+    }
 }
